@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Codes/PickUpİtems.cs"
 "Assets/Codes/Player.cs"
+"Assets/Codes/RandomSpawner.cs"
 "Assets/Codes/İnventoryManager.cs"
 "Assets/Codes/İnventoryİtemController.cs"
 "Assets/Codes/İtem.cs"
