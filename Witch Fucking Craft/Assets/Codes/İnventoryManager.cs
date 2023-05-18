@@ -79,7 +79,7 @@ public class İnventoryManager : MonoBehaviour
 
         for (int i = 0; i < İtems.Count; i++)
         {
-            InventoryItems[i].AddItem(İtems[i]); 
+            InventoryItems[i].AddItem(İtems[i]);
         }
     }
 
