@@ -9,6 +9,8 @@ public class CustomerPanelC : MonoBehaviour
     public Image vesikalık;
     public Text cusİsim;
     public Text cusİstenen;
+    public List<GameObject> pRefabs;
+    public bool spawn1;
     void Start()
     {
         

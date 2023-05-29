@@ -32,8 +32,19 @@ public class Player : MonoBehaviour
             inputVector.y = +1;
            // inputVector.x = +1;
         }
+        inputVector = inputVector.normalized;
         Vector3 inputVector3D = new Vector3(inputVector.x, 0f, inputVector.y);
-        inputVector=inputVector.normalized;
+        float playerSize = .10f;
+        float playerHeight = .10f;
+        float moveDistance = playerSpeed * Time.deltaTime;
+        bool canMove = !Physics.CapsuleCast(transform.position,transform.position + Vector3.up* playerHeight , playerSize, inputVector3D ,moveDistance  );
+        if (canMove)
+        {
+            transform.position += inputVector3D * playerSpeed * Time.deltaTime;
+        }
+
+        float rotateSpeed = 10f;
         transform.position += inputVector3D * Time.deltaTime * playerSpeed;
+        transform.forward = Vector3.Slerp( transform.forward, inputVector3D,Time.deltaTime * rotateSpeed);
     }
 }
