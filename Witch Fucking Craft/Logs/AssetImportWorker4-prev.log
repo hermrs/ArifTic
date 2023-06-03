@@ -1,0 +1,1735 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+59572
+Successfully changed project path to: C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
+C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10220] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3965154808 [EditorId] 3965154808 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VJE8FTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10220] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3965154808 [EditorId] 3965154808 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VJE8FTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 70.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3203
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002695 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.507 seconds
+Domain Reload Profiling:
+	ReloadAssembly (507ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (354ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002938 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.1 KB). Loaded Objects now: 3569.
+Memory consumption went from 114.5 MB to 114.4 MB.
+Total: 2.767000 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.102600 ms MarkObjects: 2.314000 ms  DeleteObjects: 0.111700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 681773.372213 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/BookPageFront.renderTexture
+  artifactKey: Guid(8c8ca6d76edfe5440aba60c7f0d41732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/BookPageFront.renderTexture using Guid(8c8ca6d76edfe5440aba60c7f0d41732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9491084856a57e52dcd07719d3540c') in 0.080197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182147 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfc1279a46fbaf1919953bf728d691') in 0.021811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054594 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
+  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4236eaaea3dbcc2795706b84fd959930') in 0.019276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572813 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.022127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091461 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015c9d5bdadc3317989916f713e5cc3') in 0.026135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.670516 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c314c1eab5db39322d40cbb3d09b00c') in 0.019613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025833 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd
+  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080ca94bd020d165cb99e13f0475fd69') in 0.019176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061492 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792430ad32230141f377b9b5d51160e7') in 0.018600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050045 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd
+  artifactKey: Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d7f72ec107bd8d5e9ba710f9d18cb') in 0.017687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329679 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
+  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6194476e9efb50269cfad29a426b5e') in 0.022382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028212 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd
+  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb69f1da9fc996d9706563da5408834d') in 0.016112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.327570 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd
+  artifactKey: Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd using Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774935438ba6521b9e930de97257dbbc') in 0.024876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058643 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd831c3dcef06ca9f1c613897c462b3e') in 0.043634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032383 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d5c4723bc409d0c72514ce89a80755') in 0.019426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192678 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/d_CodeCoverage.png
+  artifactKey: Guid(48e45b7f100ee4b48a02e05135e6cece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/d_CodeCoverage.png using Guid(48e45b7f100ee4b48a02e05135e6cece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7037542e8310cbc1262e4b1c677f26') in 0.014491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024662 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/d_FolderOpened.png
+  artifactKey: Guid(663a080499383ea4e9297061febf5ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/d_FolderOpened.png using Guid(663a080499383ea4e9297061febf5ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7398810c76364cbecd742f6626905bdf') in 0.013566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040163 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png
+  artifactKey: Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png using Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed1bceb9ea4b9f79443a1ad86957205') in 0.015975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.815245 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconbranch.png
+  artifactKey: Guid(612c5e166a121e3449dad067fbdc37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconbranch.png using Guid(612c5e166a121e3449dad067fbdc37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0904f72a9de66d5ad2ef1b1757ec81ea') in 0.026413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.236299 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay.png
+  artifactKey: Guid(bb1928aff4fd4cf44af1f629dc14ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay.png using Guid(bb1928aff4fd4cf44af1f629dc14ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aafd184753591f1cf6d0db558fccc5') in 0.025594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027328 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton.png
+  artifactKey: Guid(9cadde7a0d5f9024ab3f2cd5f6a740d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton.png using Guid(9cadde7a0d5f9024ab3f2cd5f6a740d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5925fdf317288acdbe6acf453c9530d') in 0.024653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png
+  artifactKey: Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png using Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e638b845d72ba14a6ec53b028df9c7fd') in 0.032987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031662 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay.png
+  artifactKey: Guid(056ee72c467a4e24d87541d42839ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay.png using Guid(056ee72c467a4e24d87541d42839ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc7e3c854f885fbfbf1c1baf1f2f708') in 0.014272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204669 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
+  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f035e5a973d6146edb3029be19a172fa') in 0.024064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028060 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay.png
+  artifactKey: Guid(3de8a0634e55df8499c88204001cb0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay.png using Guid(3de8a0634e55df8499c88204001cb0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e42ef377c05c7d5aec3c14388ca97d') in 0.013322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028856 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png
+  artifactKey: Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png using Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c187a7082e8290932d54dec8e92a5e') in 0.016104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.420120 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay.png
+  artifactKey: Guid(71c45f80bffdb9145ad2c456254c862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay.png using Guid(71c45f80bffdb9145ad2c456254c862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb593c3f9dd13729d050acfb13934317') in 0.029835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025595 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png
+  artifactKey: Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png using Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983b35b384e5aba9c82ac6bbb65a9028') in 0.016436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046534 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png
+  artifactKey: Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png using Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd98fdd16242241997fc16601187477b') in 0.020866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056821 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png
+  artifactKey: Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png using Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208724fe348f38b776c27f1cbe07585b') in 0.043367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047829 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png
+  artifactKey: Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png using Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f436142afe0def457b3b239739f844c') in 0.015928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392740 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo.png
+  artifactKey: Guid(691dc543ff5b9ca44bf846657ba04161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo.png using Guid(691dc543ff5b9ca44bf846657ba04161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4b59cd987fcce0ecf59b4d76460660') in 0.017662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.162832 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay.png
+  artifactKey: Guid(0f5597de928ba6547895c4cdb9fa4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay.png using Guid(0f5597de928ba6547895c4cdb9fa4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e19e7cf1897377bab4b26f86dfc4b4') in 0.015343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046261 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading.png
+  artifactKey: Guid(d58e94bfb1bac774dbb8ca9c2597ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading.png using Guid(d58e94bfb1bac774dbb8ca9c2597ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d806170a56d1e979fc084320439940c') in 0.015804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027248 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclose.png
+  artifactKey: Guid(6975ee4c1f40caf4da8dd733ee2cfeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclose.png using Guid(6975ee4c1f40caf4da8dd733ee2cfeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e4a76e4e66f4471b4d995639a4d87b') in 0.016025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027211 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1@2x.png
+  artifactKey: Guid(c8a69ecdf54ac8e4b873466605de27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1@2x.png using Guid(c8a69ecdf54ac8e4b873466605de27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716fe82904eb584bd79ef8cbae2d1d26') in 0.017421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041461 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok@2x.png
+  artifactKey: Guid(3494dc956dfd7174abc07060940a2848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok@2x.png using Guid(3494dc956dfd7174abc07060940a2848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7503f852713fc6bb573ad3da587db72') in 0.014032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014258 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonEnabled.png
+  artifactKey: Guid(2446ee609b613cd4e9142ccc55cb7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonEnabled.png using Guid(2446ee609b613cd4e9142ccc55cb7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0afcd58205668b200f3e2029b345fac') in 0.012708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012448 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png
+  artifactKey: Guid(39d9575ed0465354cb02b69ea18526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png using Guid(39d9575ed0465354cb02b69ea18526de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8299c26daa8d8b560d8dfaee6c4ac2') in 0.013922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047478 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png
+  artifactKey: Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png using Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb9e621f01f5c58196da10f7d1f8f9c') in 0.014517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062849 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleOFF.png
+  artifactKey: Guid(411e6f19c19fa0546af83aeb59c2ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleOFF.png using Guid(411e6f19c19fa0546af83aeb59c2ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7089e7db32bcbb460e20f4aa92c3d09a') in 0.014054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017834 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineHeaderMarkerIcon.png
+  artifactKey: Guid(4f8d98ef7dbbe3d469e14c04722cbeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineHeaderMarkerIcon.png using Guid(4f8d98ef7dbbe3d469e14c04722cbeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5428356eaa9566f4465f05fa3b2b17dc') in 0.012996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014421 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSignal.png
+  artifactKey: Guid(ad2e3e92b00839c4e991ca602ef19822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSignal.png using Guid(ad2e3e92b00839c4e991ca602ef19822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999febbb8178d8a6799d942d8bf78387') in 0.013128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030602 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled@2x.png
+  artifactKey: Guid(fd194f75fe3d7ca4488fa775ae832fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled@2x.png using Guid(fd194f75fe3d7ca4488fa775ae832fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d50047996842df5bb24c6a91f126ce') in 0.014597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015581 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png
+  artifactKey: Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png using Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f32b4cbcdf7f89e5257eb483c1103') in 0.012695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016295 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonDisabled@2x.png
+  artifactKey: Guid(1f3ea4caa6e0ec74388e4d7d16690e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonDisabled@2x.png using Guid(1f3ea4caa6e0ec74388e4d7d16690e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4c41c7d85a324a84c44bce0131a4bf') in 0.013259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033924 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonEnabled@2x.png
+  artifactKey: Guid(43ed4593c5ddda0439fcc1bdaf8309fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonEnabled@2x.png using Guid(43ed4593c5ddda0439fcc1bdaf8309fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8fbf87f2153734afa0d3d058cebe30') in 0.014294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014183 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackLockButtonDisabled@2x.png
+  artifactKey: Guid(6f0b77e050cdb12478ed9514b3a0e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackLockButtonDisabled@2x.png using Guid(6f0b77e050cdb12478ed9514b3a0e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a1b838fd429123aee33c9653622da9') in 0.012740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013001 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackLockButtonEnabled@2x.png
+  artifactKey: Guid(2c85066ea99cfbe4f90294bf295ce543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackLockButtonEnabled@2x.png using Guid(2c85066ea99cfbe4f90294bf295ce543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24fcd5f2508fe4728988c01ab25e417') in 0.012806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014355 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled@2x.png
+  artifactKey: Guid(77d926c9a4ddcc940b8c000b45cbfb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled@2x.png using Guid(77d926c9a4ddcc940b8c000b45cbfb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1f186ea5fee0d0fe7a7a2d851f76c6') in 0.012790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037059 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled@2x.png
+  artifactKey: Guid(6192986415256ca47a97a97507406f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled@2x.png using Guid(6192986415256ca47a97a97507406f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58487e2c90ba2605beacb4456232232') in 0.014538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059081 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonDisabled@2x.png
+  artifactKey: Guid(9c706019afb28944eb19b500ea0da38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonDisabled@2x.png using Guid(9c706019afb28944eb19b500ea0da38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d12e2280d0f8ae562f4fd2d974783b8') in 0.015601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029644 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonDisabled@2x.png
+  artifactKey: Guid(db15c78579dee4a4db85f392634c8ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonDisabled@2x.png using Guid(db15c78579dee4a4db85f392634c8ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f8601f897669fffcf3381434530b40') in 0.012629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019352 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled@2x.png
+  artifactKey: Guid(0f1c9a12872a30f45bab34f536332bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled@2x.png using Guid(0f1c9a12872a30f45bab34f536332bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0494e5228d9a6ad11fe0a6b9003fc4') in 0.011928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014037 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/FolderOpened.png
+  artifactKey: Guid(1935829ae7024da448814ef05b31e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/FolderOpened.png using Guid(1935829ae7024da448814ef05b31e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7091add60cfc0fd53aa194a3953c0e64') in 0.013703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017909 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Fonts/Treamd.ttf
+  artifactKey: Guid(710893cb65d9db545b7ad2828494677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Fonts/Treamd.ttf using Guid(710893cb65d9db545b7ad2828494677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7efb3ff30a0d7281772009c91f2fecb') in 0.039145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008549 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png
+  artifactKey: Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png using Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d78311355c0207bdd78bc289f62394') in 0.016607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011886 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png
+  artifactKey: Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png using Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825038d1adf78f321722e63756fcdabe') in 0.015032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021259 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedremote@2x.png
+  artifactKey: Guid(70e3ce8ad01f39248a3ea97a35bcf238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedremote@2x.png using Guid(70e3ce8ad01f39248a3ea97a35bcf238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac71541d53ae4a6643d4b8f5285c5f7') in 0.015765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmoved.png
+  artifactKey: Guid(8a6cca56e2b63344eb4769cd92d93ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmoved.png using Guid(8a6cca56e2b63344eb4769cd92d93ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57635c9b637e7e2046921705cc66a9f7') in 0.016496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync@2x.png
+  artifactKey: Guid(d7094718bdac022428dd29244922d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync@2x.png using Guid(d7094718bdac022428dd29244922d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c55b2c094b011f6f8dc687e8646bfd5') in 0.020169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png
+  artifactKey: Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png using Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b11c651a2c3dbb39c9b39ed75a82aab') in 0.023186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png
+  artifactKey: Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png using Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361b4b6c92ee02efee0b1179441bb570') in 0.023120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009869 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconrepository.png
+  artifactKey: Guid(ed64f3a17f2ede646be21ed6edc9161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconrepository.png using Guid(ed64f3a17f2ede646be21ed6edc9161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c969481f428557753a1d2e2e61883b') in 0.019155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034437 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png
+  artifactKey: Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png using Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38afd1a64eaa00de688a4303f65379df') in 0.014485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033327 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51221801b32631d898de1cb07f232595') in 0.051076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033813 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png
+  artifactKey: Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png using Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e97a29bad26db7e1534aee5dd392aa') in 0.015496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014692 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_01.png
+  artifactKey: Guid(aaae892522a0447718467d4192e78552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_01.png using Guid(aaae892522a0447718467d4192e78552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a6a936621ef6332d534afdb170ad69') in 0.006085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005523 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_02.png
+  artifactKey: Guid(849a7030758cf60498fc10b69b38d2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_02.png using Guid(849a7030758cf60498fc10b69b38d2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fa182a13d9b73dcec0b83e764f6538') in 0.025754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013266 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_03.png
+  artifactKey: Guid(aaf8dc2903609404885c2c99ec233f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_03.png using Guid(aaf8dc2903609404885c2c99ec233f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d699ba0ab2ae0f51a4fb909e931e7e') in 0.010683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026585 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_03.png
+  artifactKey: Guid(539d8119b2f8e45b6a277557e25b0b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_03.png using Guid(539d8119b2f8e45b6a277557e25b0b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70738e89561192ea807af356e6e4c13') in 0.006113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_04.png
+  artifactKey: Guid(af620eec845d24357afb43f7730c5510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_04.png using Guid(af620eec845d24357afb43f7730c5510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992db496d09a3b0d38f0168d9320d9be') in 0.026952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015104 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_05.png
+  artifactKey: Guid(e8a2a07115aca49d1b3014a8b4923678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_05.png using Guid(e8a2a07115aca49d1b3014a8b4923678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f52ec2fd867b6d6da1d38ded185075') in 0.026697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_06.png
+  artifactKey: Guid(2d56fd5d03a6a40d89e3c28fe2e9545b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_06.png using Guid(2d56fd5d03a6a40d89e3c28fe2e9545b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adddd71b56fc03a7ee55ec86701bf53') in 0.010143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013397 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_06.png
+  artifactKey: Guid(4d2d9e3a9a0693442b17a341b17fd555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_06.png using Guid(4d2d9e3a9a0693442b17a341b17fd555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bd0927798c9d8eb5ac5bb6ef2302c6') in 0.007581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_07.png
+  artifactKey: Guid(79d67378bea33cb4fb655439975823f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_07.png using Guid(79d67378bea33cb4fb655439975823f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb079ee85ba92564c95bf9ea6899fcca') in 0.010683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016327 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_07.png
+  artifactKey: Guid(fa0c69fc9776144298317ac99fb60bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Textures/Page_07.png using Guid(fa0c69fc9776144298317ac99fb60bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bb926b292d485b4795ab9fd3fdeacc') in 0.005248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_08.png
+  artifactKey: Guid(e965b683e3c010443a9c99dac503e1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_08.png using Guid(e965b683e3c010443a9c99dac503e1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3714892326bc36c2391bee8e896228') in 0.010048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015172 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_09.png
+  artifactKey: Guid(bd8196b71bcae0d4d92e1f751c602725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_09.png using Guid(bd8196b71bcae0d4d92e1f751c602725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3370a0af9a71b3b4ef9fe1cb9c781259') in 0.025107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_11.png
+  artifactKey: Guid(1054dee11031fc44688dc786c1f46318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_11.png using Guid(1054dee11031fc44688dc786c1f46318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2a0f3d5b911f4934194375324cd208') in 0.057573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_14.png
+  artifactKey: Guid(a671950d58b5e104ebc1477d5bf38483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/Page_14.png using Guid(a671950d58b5e104ebc1477d5bf38483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd119438a09b3c1559580c9657d6945') in 0.011458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_15.png
+  artifactKey: Guid(2e3d7ea69a9acc14b8e8b150e69f2fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_15.png using Guid(2e3d7ea69a9acc14b8e8b150e69f2fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e828298617bef264e45c6264ebf5d5') in 0.009317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003085 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_16.png
+  artifactKey: Guid(e1e0d42c8a83d674e8e60a2f2674de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_16.png using Guid(e1e0d42c8a83d674e8e60a2f2674de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b86e3922f8233872dfc1fd3eeadcf4') in 0.023834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_18.png
+  artifactKey: Guid(53f75a3aa19623241afbdd84a8f4c62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_18.png using Guid(53f75a3aa19623241afbdd84a8f4c62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6154d07f65ac1a254dbfe93795d3ae') in 0.013429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_19.renderTexture
+  artifactKey: Guid(9aac86d4af85aa24da95476ae934aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Page_19.renderTexture using Guid(9aac86d4af85aa24da95476ae934aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12279dbc442ab54a64a86a69a881d0d8') in 0.005268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020868 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/PageBackground_04.png
+  artifactKey: Guid(bf64fff8307db5d4db939b52cdd9196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/PageBackground_04.png using Guid(bf64fff8307db5d4db939b52cdd9196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1394f06faa9edb0bb529cc15b4514418') in 0.013843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/PageFiller.png
+  artifactKey: Guid(d39e637a759fc0e488d9da54e302c2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Textures/PageFiller.png using Guid(d39e637a759fc0e488d9da54e302c2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d700287b62160364a3bc03141a611e') in 0.040076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Dark.psd
+  artifactKey: Guid(fb5730e24283d0c489e5c7d0bee023d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Dark.psd using Guid(fb5730e24283d0c489e5c7d0bee023d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb19c7b2d4d719dac2c31770c7598a44') in 0.013947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018970 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png
+  artifactKey: Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png using Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cfd26bc12d7fe01798367cfc8830bd') in 0.016811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018114 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png
+  artifactKey: Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png using Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3767ee306fa3cb62ef5c60a4eda91f') in 0.018064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Table.png
+  artifactKey: Guid(5cea5598bfa831c43a335718f1f9d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Textures/Table.png using Guid(5cea5598bfa831c43a335718f1f9d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327a40faabab248d8bfbe6baca080f2e') in 0.009321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013452 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png
+  artifactKey: Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png using Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88db369b66d2db4ed7695427c46b5ab5') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey.png
+  artifactKey: Guid(af3aec622aef40c45813b39e405966a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey.png using Guid(af3aec622aef40c45813b39e405966a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2d4989326e9f80f72ce958f0cdeac7') in 0.024857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035195 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey@2x.png
+  artifactKey: Guid(af24c542434a025448222d576f61a956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey@2x.png using Guid(af24c542434a025448222d576f61a956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399c8ba686096ba7d324a40cbb298413') in 0.033851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041221 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey_active@2x.png
+  artifactKey: Guid(f6717d61970edba4686c297677881a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey_active@2x.png using Guid(f6717d61970edba4686c297677881a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9747663aba165f2ac50833cfb482aa7') in 0.016897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032142 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineCollapseMarkerButtonEnabled.png
+  artifactKey: Guid(0367ce1ebbbb18940b79eed63a0315d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineCollapseMarkerButtonEnabled.png using Guid(0367ce1ebbbb18940b79eed63a0315d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b36e49c72c46964a135c293897fa416') in 0.015926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineDisabledBackground.png
+  artifactKey: Guid(412f73153f3a3c549b67b2a847741145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineDisabledBackground.png using Guid(412f73153f3a3c549b67b2a847741145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb79f79c97fae5ac0e334c34ccee3b9f') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixON.png
+  artifactKey: Guid(a82846d41464fcf4b962ebdc815963f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixON.png using Guid(a82846d41464fcf4b962ebdc815963f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd168a9cc50e0d2d30f0f2b76627097') in 0.013632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013848 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceOFF.png
+  artifactKey: Guid(09ae14686a02d484ab41e76fd1efba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceOFF.png using Guid(09ae14686a02d484ab41e76fd1efba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcafb8ec4f30a5346a3e734ada2f7d4c') in 0.014935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEndPlayback.png
+  artifactKey: Guid(6952cd3b0f88917449a8fa4d19fc5009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEndPlayback.png using Guid(6952cd3b0f88917449a8fa4d19fc5009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251439f4a1c02533f6b57715dd94ddea') in 0.015998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012616 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineHold.png
+  artifactKey: Guid(ddbd45249a133a846b2f20e39b537565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineHold.png using Guid(ddbd45249a133a846b2f20e39b537565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d45ef06ff328d147704e2ca9645a0e5') in 0.041582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipOut.png
+  artifactKey: Guid(32f7e3598d6414c489127629e29af3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipOut.png using Guid(32f7e3598d6414c489127629e29af3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d74b8e8bf20401d4946b64e84d859eb') in 0.016733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineKeyframe.png
+  artifactKey: Guid(f9fd2f335364cda41937eab39bf20049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineKeyframe.png using Guid(f9fd2f335364cda41937eab39bf20049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ab83ce2ad685cce70ba183ade35468') in 0.013937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLoop.png
+  artifactKey: Guid(c7df1e797b21c774f9b859d17f674737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLoop.png using Guid(c7df1e797b21c774f9b859d17f674737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc2cef2af60c49d7b8431307b04dd6f') in 0.014842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010112 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemSelected.png
+  artifactKey: Guid(3dd65256ca8837544b3e738c0d3ee0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemSelected.png using Guid(3dd65256ca8837544b3e738c0d3ee0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240d4a16af1515ee4f97a06a44f4e22d') in 0.021600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelinePingPong.png
+  artifactKey: Guid(88d697f38121de443ba144702e5122d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelinePingPong.png using Guid(88d697f38121de443ba144702e5122d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da19349f7152fd58436e75fe5af3b29d') in 0.016664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineSignalCollapsed.png
+  artifactKey: Guid(a88fa20ed164bbe4da6bf533f94a3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineSignalCollapsed.png using Guid(a88fa20ed164bbe4da6bf533f94a3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1568a490e649844ba9bf9dcb3cebbe49') in 0.018092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineStartPlayback.png
+  artifactKey: Guid(824c4beb0ca6c934bbc7a26919302236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineStartPlayback.png using Guid(824c4beb0ca6c934bbc7a26919302236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd70395f6b89e834f0099f40a443f6a') in 0.013999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineSwatch.png
+  artifactKey: Guid(e50018fd67fc156459e4014bdad3f5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineSwatch.png using Guid(e50018fd67fc156459e4014bdad3f5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3a75078e32112cfee143ec3036d8aa') in 0.014315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+  artifactKey: Guid(ee148e281f3c41c5b4ff5f8a5afe5a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd using Guid(ee148e281f3c41c5b4ff5f8a5afe5a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5cee8fe6c7f976b44b77a48aeee3ad') in 0.011109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+  artifactKey: Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd using Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6987c0a648b2a421f1f1286b6d13dd0d') in 0.012779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled.png
+  artifactKey: Guid(4bf6507f1346b2746a35384f6a5fd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled.png using Guid(4bf6507f1346b2746a35384f6a5fd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2b4b2a8be395472aca8af0bfe54c2a') in 0.014533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled@2x.png
+  artifactKey: Guid(51bf5f55a8a01e546bf6092b54fdae20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled@2x.png using Guid(51bf5f55a8a01e546bf6092b54fdae20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041f80fe2e70db29f97474b8aa0b8442') in 0.018543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png
+  artifactKey: Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png using Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5ba840378cc2727eb6f4a79d0fb898') in 0.017582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled@2x.png
+  artifactKey: Guid(193dae938a3136440b693b45a2494737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled@2x.png using Guid(193dae938a3136440b693b45a2494737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabd3f76b16245434ef4ffb430e9e601') in 0.018334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png
+  artifactKey: Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png using Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888acd6128dcbc0b023a4623c86f0424') in 0.017242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled@2x.png
+  artifactKey: Guid(512aaee9b220348408a2e518f98d6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled@2x.png using Guid(512aaee9b220348408a2e518f98d6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407a2c11717fe7c2996b90be285ac345') in 0.018943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png
+  artifactKey: Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png using Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba41488de18bd692030c2dd7c9d6a8f3') in 0.015619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png
+  artifactKey: Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png using Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2055e94691b7620e5b0319c8993d0a33') in 0.015784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.432081 seconds.
+  path: Assets/Serenay-3d Models/Material/Materials/wood_table_worn_nor_gl_4k.png
+  artifactKey: Guid(4345f907709997443a0711e9f897a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Materials/wood_table_worn_nor_gl_4k.png using Guid(4345f907709997443a0711e9f897a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10113496af8e6e745bf5645410ff2b8f') in 0.016319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.419081 seconds.
+  path: Assets/Serenay-3d Models/Material/Materials/wood_table_worn_disp_4k.png
+  artifactKey: Guid(5a1bcb0155d27564a927b4f5356b98c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Materials/wood_table_worn_disp_4k.png using Guid(5a1bcb0155d27564a927b4f5356b98c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80b6d433e234ccef97c4dff13fb1c12') in 0.012871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.107888 seconds.
+  path: Assets/Serenay-3d Models/Material/Materials/wood_table_worn_rough_4k.png
+  artifactKey: Guid(f469c91141a1615468552fde7b58e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Materials/wood_table_worn_rough_4k.png using Guid(f469c91141a1615468552fde7b58e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2f191f46b823608f289897c520d679') in 0.012701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.604113 seconds.
+  path: Assets/Serenay-3d Models/Material/Wood
+  artifactKey: Guid(9f2a62e7f160cef4fa45cbbec0fdc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Wood using Guid(9f2a62e7f160cef4fa45cbbec0fdc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a01e1cfc22779ffeb3ab62eda99443') in 0.002799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.347328 seconds.
+  path: Assets/Serenay-3d Models/Material/New Folder
+  artifactKey: Guid(23b36a275553f4d429004ae0712c4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/New Folder using Guid(23b36a275553f4d429004ae0712c4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea433f000258913e88f2db36a2fb3106') in 0.006844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.825154 seconds.
+  path: Assets/Serenay-3d Models/Material/New Folder/New Item.asset
+  artifactKey: Guid(7b14a77b7fb9b1d4aba4d1a21e51773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/New Folder/New Item.asset using Guid(7b14a77b7fb9b1d4aba4d1a21e51773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f078253e8a394e39a7241c7915e44b5') in 0.006972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.106971 seconds.
+  path: Assets/Serenay-3d Models/Material/Kazan Metal
+  artifactKey: Guid(23b36a275553f4d429004ae0712c4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kazan Metal using Guid(23b36a275553f4d429004ae0712c4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec303a0c6f9f13c5f1710a72a3247a4') in 0.006108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.607782 seconds.
+  path: Assets/Serenay-3d Models/Material/Kazan Metal/Green Metal.mat
+  artifactKey: Guid(a492bf9336f911244b27240948b09a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kazan Metal/Green Metal.mat using Guid(a492bf9336f911244b27240948b09a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9286929a50a7ee85bef1826a99e59998') in 0.035880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.332622 seconds.
+  path: Assets/Serenay-3d Models/Material/Kazan Metal/green_metal_rust_diff_4k.jpg
+  artifactKey: Guid(ef74c32bacb6f27449ed1626db427d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kazan Metal/green_metal_rust_diff_4k.jpg using Guid(ef74c32bacb6f27449ed1626db427d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87f981e41b9ef0db82a5bfa3e6b5505') in 0.017713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Serenay-3d Models/Material/Kazan Metal/green_metal_rust_nor_gl_4k.png
+  artifactKey: Guid(c6e54e3832408bb489f1b50e551d8323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kazan Metal/green_metal_rust_nor_gl_4k.png using Guid(c6e54e3832408bb489f1b50e551d8323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa786ac08c5ba7d36fb15d66082f64a3') in 0.013926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.406588 seconds.
+  path: Assets/Serenay-3d Models/Material/Glass.mat
+  artifactKey: Guid(5ab52c16701f9314491e0b29f54663bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Glass.mat using Guid(5ab52c16701f9314491e0b29f54663bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628cf20cfcb72aad8a0b8d468b4c5bd4') in 0.011435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.344510 seconds.
+  path: Assets/Serenay-3d Models/Material/Wood/wood_table_worn_diff_4k.mat
+  artifactKey: Guid(071b25b41b6f2c0499980aefe108f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Wood/wood_table_worn_diff_4k.mat using Guid(071b25b41b6f2c0499980aefe108f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8fa57f898aa504d1c311015eed1f87') in 0.195363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2265.774040 seconds.
+  path: Assets/Serenay-3d Models/merhem iksiri şişesi.glb
+  artifactKey: Guid(305264899d649fe47aac3b05fd710681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/merhem iksiri şişesi.glb using Guid(305264899d649fe47aac3b05fd710681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a065e94f9024e8a95efed40cf8a3f5') in 0.009483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 866.272620 seconds.
+  path: Assets/Serenay-3d Models/Material/Glass.png
+  artifactKey: Guid(54d51219138f9d74986a37b6411cf600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Glass.png using Guid(54d51219138f9d74986a37b6411cf600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659d15fd1a65d1acc733c5d42d14fd8b') in 0.033037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.804721 seconds.
+  path: Assets/Serenay-3d Models/Material/Glass
+  artifactKey: Guid(9b07807b655161944b441e292feb9436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Glass using Guid(9b07807b655161944b441e292feb9436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef626b4214cf6613a00ffa19ee216df1') in 0.002564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.302829 seconds.
+  path: Assets/Serenay-3d Models/Material/Glass/Glass.mat
+  artifactKey: Guid(5ab52c16701f9314491e0b29f54663bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Glass/Glass.mat using Guid(5ab52c16701f9314491e0b29f54663bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe6c31effee887ee21012a5d1b25701') in 0.017344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.248969 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar
+  artifactKey: Guid(b333f60e68c1e5b4f99ca92b3174d42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar using Guid(b333f60e68c1e5b4f99ca92b3174d42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cdb87ef04fe41295e2fc981d9d771e') in 0.006987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.728157 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041299e2d500470695f8c22df0c0fee6') in 0.020229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.288998 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak.png
+  artifactKey: Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak.png using Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd968913c621870ec4e4b378189364f14') in 0.012364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.009606 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak.png
+  artifactKey: Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak.png using Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf486bf318130a55b6c38aeea874f1f0') in 0.014540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 272.521540 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak_normal.png
+  artifactKey: Guid(a4f7f9719494ab84da395931b1ad6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak_normal.png using Guid(a4f7f9719494ab84da395931b1ad6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf2102291aa99eea12bb17f904751f') in 0.014612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205291 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak_Roughn.png
+  artifactKey: Guid(537c5e51c52c0804a9ebe5e0c0790fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak_Roughn.png using Guid(537c5e51c52c0804a9ebe5e0c0790fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39779cae82458972430d7293f119dd11') in 0.011178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.333224 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak.png
+  artifactKey: Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/İksir Şişesi Altın Kapak.png using Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0335e5ad9896b840faf2c57273345113') in 0.011561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 451.461742 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın
+  artifactKey: Guid(2cf6071fc281ff5418d5328101fd8a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın using Guid(2cf6071fc281ff5418d5328101fd8a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a10a075ef6f11bf7801c92772a1ed3f') in 0.006464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.574685 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil
+  artifactKey: Guid(502413f3ba689104285249b88f38d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil using Guid(502413f3ba689104285249b88f38d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abccf48d035f0f027c3367d98e674aa1') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.735451 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/Yeşil KApak.mat
+  artifactKey: Guid(e1a7603af7b9d274f9b0c7d13635c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/Yeşil KApak.mat using Guid(e1a7603af7b9d274f9b0c7d13635c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a384ebdfe3daab89c044f8d546ed119f') in 0.012535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.440264 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/Yeşil Kapak.mat
+  artifactKey: Guid(e1a7603af7b9d274f9b0c7d13635c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/Yeşil Kapak.mat using Guid(e1a7603af7b9d274f9b0c7d13635c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a34dceb4ad963021019a838475e959') in 0.010117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.353811 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak.png
+  artifactKey: Guid(5d34e0191779c124c9cb29c743f19fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak.png using Guid(5d34e0191779c124c9cb29c743f19fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554688bf6cbf80b50b865bd22a9b10c') in 0.016209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797675 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak_normal.png
+  artifactKey: Guid(98e9e011c0ec1d24c8f9430b8c9b2bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak_normal.png using Guid(98e9e011c0ec1d24c8f9430b8c9b2bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff36f413380508c35e8ae5a23efe7e96') in 0.010367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.220657 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak.png
+  artifactKey: Guid(5d34e0191779c124c9cb29c743f19fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak.png using Guid(5d34e0191779c124c9cb29c743f19fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748a4cd9b94a0d47c53114940a411f3b') in 0.012966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.481049 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak_normal 1.png
+  artifactKey: Guid(9fb9a25166d61cc4692d0113109e7dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak_normal 1.png using Guid(9fb9a25166d61cc4692d0113109e7dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97accea3a3ff0a14b221541514adc840') in 0.011335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.119067 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak_normal.png
+  artifactKey: Guid(98e9e011c0ec1d24c8f9430b8c9b2bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/yeşil kapak_normal.png using Guid(98e9e011c0ec1d24c8f9430b8c9b2bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1faf2489a3e471e44a64eacf32a6da1') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.339495 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Mavi
+  artifactKey: Guid(8b9ae7f39116f02438405a11dfdc639f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Mavi using Guid(8b9ae7f39116f02438405a11dfdc639f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5487f8a573769b6b8965456b8f8d0238') in 0.006332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.431229 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Mavi/Mavi Kapak.mat
+  artifactKey: Guid(3de02965b5202be4281793b3ab7f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Mavi/Mavi Kapak.mat using Guid(3de02965b5202be4281793b3ab7f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9fe9d537b450872ebae0f65286c94c') in 0.013282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1151.210000 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12c1f8f9acd719e3420cb97327155c8') in 0.163372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.785590 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_glossy.png
+  artifactKey: Guid(4c4f86727e6bdfc46a3cbf7218ba0edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_glossy.png using Guid(4c4f86727e6bdfc46a3cbf7218ba0edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaadf51593b13cd0de76f4f148680fc') in 0.015215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.452433 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Models/Chess Scene.fbx
+  artifactKey: Guid(ed8e0b74d8aebcb458131161d4feae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Models/Chess Scene.fbx using Guid(ed8e0b74d8aebcb458131161d4feae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee77e12d7009392d490e325bac18aea') in 0.279950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.561486 seconds.
+  path: Assets/Serenay-3d Models/merhem iksiri şişesi.fbx
+  artifactKey: Guid(ed678b0dac34158439162d1f47ac34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/merhem iksiri şişesi.fbx using Guid(ed678b0dac34158439162d1f47ac34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4da36eccf9651087dbb85c636ebdc2') in 0.048337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.857330 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Embedded Book/BookPageBack.mat
+  artifactKey: Guid(18acdd146b4b58b478808cd61aead99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Embedded Book/BookPageBack.mat using Guid(18acdd146b4b58b478808cd61aead99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee75f12410dc2211623180b7ee0aaa40') in 0.025664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.571336 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Book/Materials/BookPageFront.mat
+  artifactKey: Guid(bdb38526121b86447b50668e29efe201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Book/Materials/BookPageFront.mat using Guid(bdb38526121b86447b50668e29efe201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0bb1e38cc48e58c45854e0548a218f') in 0.023376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262868 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/BookPageFront.mat
+  artifactKey: Guid(cd678c2baf31bac4496edecf2be0b628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/BookPageFront.mat using Guid(cd678c2baf31bac4496edecf2be0b628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358098ea4f9d821d661c53e16e4a8d03') in 0.024607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067165 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Book/Materials/BookPageLeft.mat
+  artifactKey: Guid(1dac22028bd9f64429fb8bd697a4433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Book/Materials/BookPageLeft.mat using Guid(1dac22028bd9f64429fb8bd697a4433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b435935526e5cf2ff8e948d6e3a5d7') in 0.021652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.650738 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/CoverExtras.mat
+  artifactKey: Guid(67fd73918babf2a4a9acc79c838b21ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/CoverExtras.mat using Guid(67fd73918babf2a4a9acc79c838b21ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ed417a69b53569b839dc00d0d711a') in 0.016709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022417 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Embedded Book/EmbeddedBookPage.mat
+  artifactKey: Guid(5f10d9fd60af52d4aa89e1234e32a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Embedded Book/EmbeddedBookPage.mat using Guid(5f10d9fd60af52d4aa89e1234e32a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbf8c085f4f03f0adba440db7e5c152') in 0.015421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021866 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e85d55384b22641579099d0f1ce7e8') in 0.021302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385205 seconds.
+  path: Assets/Serenay-3d Models/Material/Kazan Metal/Green Metal.mat
+  artifactKey: Guid(a492bf9336f911244b27240948b09a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kazan Metal/Green Metal.mat using Guid(a492bf9336f911244b27240948b09a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6245f51f829bcf2b02055de9e492f27') in 0.041873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.415997 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/Map.mat
+  artifactKey: Guid(d01f251ef42523141824b7c44f3ec804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/Map.mat using Guid(d01f251ef42523141824b7c44f3ec804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadeca1647d56b6f6dea59b640db1dbd') in 0.030786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.814779 seconds.
+  path: Assets/Serenay-3d Models/merhem iksiri şişesi.fbx
+  artifactKey: Guid(ed678b0dac34158439162d1f47ac34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/merhem iksiri şişesi.fbx using Guid(ed678b0dac34158439162d1f47ac34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b99356fe9ff160f00f3a729b0c60550') in 0.049259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.201781 seconds.
+  path: Assets/Serenay-3d Models/merhem iksiri şişesi.fbx
+  artifactKey: Guid(ed678b0dac34158439162d1f47ac34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/merhem iksiri şişesi.fbx using Guid(ed678b0dac34158439162d1f47ac34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e281aee58ce293b1493828759623e094') in 0.048018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.586969 seconds.
+  path: Assets/main menu elements/Ana_ekran_icin_duvar.fbx
+  artifactKey: Guid(f20292cc464869443868a2d783a3cadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/main menu elements/Ana_ekran_icin_duvar.fbx using Guid(f20292cc464869443868a2d783a3cadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde6b1f9e9626e3275ef6dfe92f80e69') in 0.043562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.075686 seconds.
+  path: Assets/main menu elements/Buton.fbx
+  artifactKey: Guid(e51a24cc276766540a1ab1c945a2df12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/main menu elements/Buton.fbx using Guid(e51a24cc276766540a1ab1c945a2df12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a15b75e2c602bb66741e01b721c1a0') in 0.081777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.210462 seconds.
+  path: Assets/main menu elements/buton1.fbx
+  artifactKey: Guid(d43d61b7a71d15b40981893db2456d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/main menu elements/buton1.fbx using Guid(d43d61b7a71d15b40981893db2456d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3d36e444dec6d23439a557264c8980') in 0.032622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.030652 seconds.
+  path: Assets/main menu elements/buton2.fbx
+  artifactKey: Guid(c2bebad2d8890384fbdc617d2f8e403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/main menu elements/buton2.fbx using Guid(c2bebad2d8890384fbdc617d2f8e403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229f3bde0a047ebf9991bf0702b09604') in 0.028949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.629501 seconds.
+  path: Assets/colors/New Material.mat
+  artifactKey: Guid(f3126c9afcd3f2a40ab026b21467a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colors/New Material.mat using Guid(f3126c9afcd3f2a40ab026b21467a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c669a777a9ccb8760704fa13c5061c49') in 0.017646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066747 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/New Material.mat
+  artifactKey: Guid(e017f98cd196d464fbab95e910b328bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/New Material.mat using Guid(e017f98cd196d464fbab95e910b328bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76141994b569b0f3a0b5a1bca4fd2f27') in 0.017779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037667 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Other/Note2.mat
+  artifactKey: Guid(b63d48cb3a70fae43aa871fc979bf06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Other/Note2.mat using Guid(b63d48cb3a70fae43aa871fc979bf06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707bd65b90d25e0932b6d2232c769e2e') in 0.015145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613475 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_01.mat
+  artifactKey: Guid(12f7bdeef3cb5c34e984083f8ded8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_01.mat using Guid(12f7bdeef3cb5c34e984083f8ded8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a1700d6ad927c31677064885ee3d18') in 0.024771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.134539 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_02.mat
+  artifactKey: Guid(9b6383a24a89210448fbf6a6b02e2727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_02.mat using Guid(9b6383a24a89210448fbf6a6b02e2727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec41e620c87cb9142fcd63a0d866b546') in 0.018130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205237 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_02.mat
+  artifactKey: Guid(ac2dea12fa6a0db408ce69a216d7eb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_02.mat using Guid(ac2dea12fa6a0db408ce69a216d7eb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549ef06838a0f18b72ab3417dd7fddf5') in 0.020295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.433954 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_03.mat
+  artifactKey: Guid(fc2241260ac80c541ba5097e1d26291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_03.mat using Guid(fc2241260ac80c541ba5097e1d26291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691f4b0a2433427ba93194dbb089bd4') in 0.025666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026922 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_04.mat
+  artifactKey: Guid(af743ea3c3a72494dbb93c20c847eaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_04.mat using Guid(af743ea3c3a72494dbb93c20c847eaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ef9fd68074bb09d538ff27f7a2d763') in 0.015978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020907 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/Page_04.mat
+  artifactKey: Guid(437691196606b4c12ac3783169c237d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/Page_04.mat using Guid(437691196606b4c12ac3783169c237d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c0426c5f12eda38145670e14cd07ee') in 0.022738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004151 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_05.mat
+  artifactKey: Guid(f741140f9df1bdb488c2cde314c38b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_05.mat using Guid(f741140f9df1bdb488c2cde314c38b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e281180bd894093d62a7c560b3c1f9c1') in 0.015019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.316123 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_06.mat
+  artifactKey: Guid(6c2d687187323b74b920bc30e2612149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_06.mat using Guid(6c2d687187323b74b920bc30e2612149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268ccd2735e48cfcaa089503ad0377fa') in 0.023863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030558 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/Page_07.mat
+  artifactKey: Guid(367338d271848444e97595a85678c79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/Page_07.mat using Guid(367338d271848444e97595a85678c79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2fdb8e9670cc65d761590dfe49be4c') in 0.015858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/Page_08.mat
+  artifactKey: Guid(e27d61f5fa5dd438382c224f4679a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/Page_08.mat using Guid(e27d61f5fa5dd438382c224f4679a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c9590fa64586998be47f67192cec51') in 0.014363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.285770 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_08.mat
+  artifactKey: Guid(88b271d7817293443bc54ada7c7aed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_08.mat using Guid(88b271d7817293443bc54ada7c7aed17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6ee23c46c350d15ea293be47ea568a') in 0.022746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_10.mat
+  artifactKey: Guid(8e1329d3bb9d7ad40ae2e741d8a1b2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_10.mat using Guid(8e1329d3bb9d7ad40ae2e741d8a1b2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17337a281aa6b5be6374a0b6be440eff') in 0.013886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012196 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_10.mat
+  artifactKey: Guid(3b09fc0cbd7bd7a4cb97bc85391d479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_10.mat using Guid(3b09fc0cbd7bd7a4cb97bc85391d479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654adf55ef173e29fbc1e47b0e517808') in 0.014001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.311057 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_11.mat
+  artifactKey: Guid(ee85f0f2249033b4a92fad4dd5a25d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_11.mat using Guid(ee85f0f2249033b4a92fad4dd5a25d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c964478a1e8959fbdb98f9d43140d303') in 0.018673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028514 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_13.mat
+  artifactKey: Guid(e920fd9038b607a49afce8756e18fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_13.mat using Guid(e920fd9038b607a49afce8756e18fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b9d666d278be5d83253ae5b148a176') in 0.016494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.281535 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_15.mat
+  artifactKey: Guid(acc59189e92793f46b8cd5c1ead5f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_15.mat using Guid(acc59189e92793f46b8cd5c1ead5f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1eb3f48ea40c812ec984bd0aef2728') in 0.014697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_17.mat
+  artifactKey: Guid(7e7a53dad1806704aae7ba1f7dc529a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_17.mat using Guid(7e7a53dad1806704aae7ba1f7dc529a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6d9e93b3f86f9b5317d58e0d871b8d') in 0.012708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014780 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_17.mat
+  artifactKey: Guid(296b0ecfd57f9cc459d1f7097fa38b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_17.mat using Guid(296b0ecfd57f9cc459d1f7097fa38b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3592fdbd6fb3ebdbac2566938610a4e1') in 0.014798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_19.mat
+  artifactKey: Guid(2d1cc845be32f3647a05d6cb8d17cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_19.mat using Guid(2d1cc845be32f3647a05d6cb8d17cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717affd3876f04e873cb8eb6c4c60628') in 0.014954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.251495 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_19.mat
+  artifactKey: Guid(6cfe3127bcf1453478ad52991eeca3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 01/Materials/Page_19.mat using Guid(6cfe3127bcf1453478ad52991eeca3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad42ac29b863a828eebb9d9013ab81d') in 0.022724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Models/PageBackground.L.fbx
+  artifactKey: Guid(83911544a1384224f8c63969b343fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Models/PageBackground.L.fbx using Guid(83911544a1384224f8c63969b343fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612e467453386b695864eaf42b7368f9') in 0.019732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004895 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground.L.mat
+  artifactKey: Guid(e279050a4198feb4296155ad3e83b2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground.L.mat using Guid(e279050a4198feb4296155ad3e83b2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518745408a4de4f2bd7252dfd2d8358') in 0.016657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_02.mat
+  artifactKey: Guid(5d59ad445dda3254386037f265887295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_02.mat using Guid(5d59ad445dda3254386037f265887295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558c7cd2850399f0187fdd454e9bdd87') in 0.016279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.207359 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_19.mat
+  artifactKey: Guid(620c7ce1c8634e344a55bcb2a059947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_19.mat using Guid(620c7ce1c8634e344a55bcb2a059947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bff3298201f4f776d6cf527f8a93d0') in 0.016196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014882 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_Front.mat
+  artifactKey: Guid(36ad1da93e530d648a7f7d05935d934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_Front.mat using Guid(36ad1da93e530d648a7f7d05935d934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e591ee217724e6fe5a3990877bda9cc') in 0.016399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/PageFiller.mat
+  artifactKey: Guid(8ebe413c9c5e946d88c1b2614112a4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 03 - Manual Page Turn/Materials/PageFiller.mat using Guid(8ebe413c9c5e946d88c1b2614112a4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224dd8d8ad7cd9dd7323e602066333b9') in 0.009581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013596 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Book/Materials/PageFront.mat
+  artifactKey: Guid(50adf31fba8d3684d9f06b6f29dfad50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Book/Materials/PageFront.mat using Guid(50adf31fba8d3684d9f06b6f29dfad50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adf4b62123ca5a1b4c0868e5dcbeab5') in 0.013755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.534233 seconds.
+  path: Assets/colors/Rope.mat
+  artifactKey: Guid(0c94306436f08ae49912f3d8bd4904c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colors/Rope.mat using Guid(0c94306436f08ae49912f3d8bd4904c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6d92932b44e3e1386b3078d21abe7c') in 0.024816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015184 seconds.
+  path: Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Other/TableOfContentsButton.mat
+  artifactKey: Guid(922f46f9be7e21347b4d529b7b17ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/EndlessBook/Demos/Demo 02/Materials/Other/TableOfContentsButton.mat using Guid(922f46f9be7e21347b4d529b7b17ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c44fe582d6c056c0f37dc3e806d1876') in 0.015740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017633 seconds.
+  path: Assets/main menu elements/Materials/wood_table_worn_diff_4k.mat
+  artifactKey: Guid(65de2ec2a393e6249957ff0da7c7928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/main menu elements/Materials/wood_table_worn_diff_4k.mat using Guid(65de2ec2a393e6249957ff0da7c7928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52f73f93872d09ee196c005395ee31a') in 0.015818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.318967 seconds.
+  path: Assets/colors/Çivi.mat
+  artifactKey: Guid(7b607e81687799f4eab22704e9e76427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colors/Çivi.mat using Guid(7b607e81687799f4eab22704e9e76427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538882c30b2d9693808263448ed33e91') in 0.022593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.265649 seconds.
+  path: Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx
+  artifactKey: Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx using Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068bce418ae134ad7579088316d207ca') in 0.067765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.244141 seconds.
+  path: Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx
+  artifactKey: Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx using Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecd6749a13aec7dafaf884defdd4ad0') in 0.058630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.934109 seconds.
+  path: Assets/Serenay-3d Models/Material/Yılan Gözü.mat
+  artifactKey: Guid(63ae6ed9bccf1d44eaa749a33aa109f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Yılan Gözü.mat using Guid(63ae6ed9bccf1d44eaa749a33aa109f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff10560ee4e44a99c044ce76988f6725') in 0.010826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.759652 seconds.
+  path: Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx
+  artifactKey: Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx using Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be82fa0ca150b1f15f71064312e45571') in 0.051223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.969776 seconds.
+  path: Assets/Serenay-3d Models/havan.fbx
+  artifactKey: Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/havan.fbx using Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b0abee637829e9ae2949a1af8ef8b6') in 0.057617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.409627 seconds.
+  path: Assets/Serenay-3d Models/havan.fbx
+  artifactKey: Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/havan.fbx using Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e9efb0b7510683eabfe33c9ed11e19') in 0.048588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.174501 seconds.
+  path: Assets/Serenay-3d Models/havan.fbx
+  artifactKey: Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/havan.fbx using Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602b810440242d16fd621be3a22ab36c') in 0.042182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.553666 seconds.
+  path: Assets/Serenay-3d Models/havan.fbx
+  artifactKey: Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/havan.fbx using Guid(fab2e9e83c71a6c4fab3ac7a38791c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade7fbb148aaa4efff0fe766d32e14ee') in 0.042637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.627337 seconds.
+  path: Assets/Serenay-3d Models/kasa kırılmış.fbx
+  artifactKey: Guid(685176d4de1db724d9559fe1837a8e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/kasa kırılmış.fbx using Guid(685176d4de1db724d9559fe1837a8e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafff1a15ce9f355b831df3a65904e1a') in 0.100162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.538779 seconds.
+  path: Assets/Serenay-3d Models/sebze kasası.fbx
+  artifactKey: Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/sebze kasası.fbx using Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846590a7e53156640c2080201742f4d0') in 0.080312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.414192 seconds.
+  path: Assets/Serenay-3d Models/sebze kasası.fbx
+  artifactKey: Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/sebze kasası.fbx using Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01c1fb353594c139105b04cbd4ebd78') in 0.077001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.766092 seconds.
+  path: Assets/Serenay-3d Models/sebze kasası.fbx
+  artifactKey: Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/sebze kasası.fbx using Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd2baedec51d690fe334f0ce9f25a4') in 0.069087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.496109 seconds.
+  path: Assets/Serenay-3d Models/istockphoto-586184474-170667a.jpg
+  artifactKey: Guid(b72ffba3627cfe741923b3aa7c9df0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/istockphoto-586184474-170667a.jpg using Guid(b72ffba3627cfe741923b3aa7c9df0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e70300073eca6a0c5153c57c3c5715') in 0.010294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.769345 seconds.
+  path: Assets/Serenay-3d Models/Material/Toprak.mat
+  artifactKey: Guid(44792e2ea922d2f4c920a86af79c536e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Toprak.mat using Guid(44792e2ea922d2f4c920a86af79c536e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dea8807496c49a4505e1f4a9d88c489') in 0.011668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.984033 seconds.
+  path: Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx
+  artifactKey: Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Büyü_Kitabı_Stand.fbx using Guid(5192cff0de117cd49afc189c1bf31d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0d30f99e1779950b88aede0889f522') in 0.096845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Serenay-3d Models/Toprak.mat
+  artifactKey: Guid(859ca5cbc8902364e901d3c59e7f9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Toprak.mat using Guid(859ca5cbc8902364e901d3c59e7f9bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3810162257c60f359ee18c20962a01') in 0.012229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.608151 seconds.
+  path: Assets/Serenay-3d Models/sebze kasası.fbx
+  artifactKey: Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/sebze kasası.fbx using Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78f0e14b8cd0eaa392116c33689390d') in 0.074959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.032293 seconds.
+  path: Assets/Serenay-3d Models/Material/Metal.mat
+  artifactKey: Guid(0122d4e7e3bef2b47aa0bd66355662e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Metal.mat using Guid(0122d4e7e3bef2b47aa0bd66355662e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812ab724456767a051ba4be255eb6a15') in 0.014318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.644044 seconds.
+  path: Assets/Serenay-3d Models/Material/Tezgah Kumaş.mat
+  artifactKey: Guid(39767463c204bd5448c2dcce68176c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Tezgah Kumaş.mat using Guid(39767463c204bd5448c2dcce68176c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4bfe8e798a18d9cd038ba02811565f') in 0.010387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 340.063761 seconds.
+  path: Assets/Serenay-3d Models/Material/book_pattern_disp_4k.png
+  artifactKey: Guid(ed5cbbafc7e403c4cb26848ee19720aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/book_pattern_disp_4k.png using Guid(ed5cbbafc7e403c4cb26848ee19720aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d1b09111e8f02c4b4c055429e43a47') in 0.018227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.757426 seconds.
+  path: Assets/Serenay-3d Models/Material/book_pattern_nor_gl_4k.png
+  artifactKey: Guid(4f38b0fa194e23540ace20c8e1840aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/book_pattern_nor_gl_4k.png using Guid(4f38b0fa194e23540ace20c8e1840aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c04ca165d2b22276f04bbd087aae454') in 0.013669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.440367 seconds.
+  path: Assets/Serenay-3d Models/Material/book_pattern_rough_4k.jpg
+  artifactKey: Guid(c659e7d62d6ce0b45a1e2c82604ce0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/book_pattern_rough_4k.jpg using Guid(c659e7d62d6ce0b45a1e2c82604ce0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29e9704f9e3e62965a14954e0dbe56a') in 0.014247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.619097 seconds.
+  path: Assets/Serenay-3d Models/Material/Kumaş
+  artifactKey: Guid(adc31bc344f9d034caf696e965cace78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kumaş using Guid(adc31bc344f9d034caf696e965cace78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92136e04fd1f94a79cb85223bdac199') in 0.006909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.300607 seconds.
+  path: Assets/Serenay-3d Models/Material/Kumaş/book_pattern_col1_4k.png
+  artifactKey: Guid(d6e0d685ee3c1f543b2f3adecb35676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/Kumaş/book_pattern_col1_4k.png using Guid(d6e0d685ee3c1f543b2f3adecb35676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3cd5be9072ade7726e146969988aff') in 0.012950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.516940 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af92ef97ff95d3e7427a1a3259024ecc') in 0.177297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.694400 seconds.
+  path: Assets/Serenay-3d Models/Tezgah 1.fbx
+  artifactKey: Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Tezgah 1.fbx using Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873b4b027b733a3222e2e8b39be4a170') in 0.186987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.677247 seconds.
+  path: Assets/Serenay-3d Models/Tezgah 1.fbx
+  artifactKey: Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Tezgah 1.fbx using Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0e7ff46089e3c4dc240ad5684b332b') in 0.132981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.554158 seconds.
+  path: Assets/Serenay-3d Models/Tezgah 1.fbx
+  artifactKey: Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Tezgah 1.fbx using Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a26b3f1bfe96e668451e9e06302018') in 0.208188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.365205 seconds.
+  path: Assets/Serenay-3d Models/Tezgah 1.fbx
+  artifactKey: Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Tezgah 1.fbx using Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f830028e99463adb9bc20aff302f392a') in 0.122028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.290243 seconds.
+  path: Assets/Serenay-3d Models/Tezgah 1.fbx
+  artifactKey: Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Tezgah 1.fbx using Guid(0e9a4a4ed636dc747bcdb5d0dae35bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b774b3232c4c2797823745692735d0') in 0.137230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.160306 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/Yeşil Kapak.mat
+  artifactKey: Guid(e1a7603af7b9d274f9b0c7d13635c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Yeşil/Yeşil Kapak.mat using Guid(e1a7603af7b9d274f9b0c7d13635c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71978c235c16e7a6ac80ed25c3cd51ea') in 0.011469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.713318 seconds.
+  path: Assets/Serenay-3d Models/kazan.fbx
+  artifactKey: Guid(2be0d32f18d246744b000f070b0a2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/kazan.fbx using Guid(2be0d32f18d246744b000f070b0a2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecec4c61c686f5a637f18c75a21c75d') in 0.098399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.407616 seconds.
+  path: Assets/Serenay-3d Models/kazan.fbx
+  artifactKey: Guid(2be0d32f18d246744b000f070b0a2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/kazan.fbx using Guid(2be0d32f18d246744b000f070b0a2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ede7a1cc40444447752e897f3997a5') in 0.093491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.467022 seconds.
+  path: Assets/Serenay-3d Models/kazan.fbx
+  artifactKey: Guid(2be0d32f18d246744b000f070b0a2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/kazan.fbx using Guid(2be0d32f18d246744b000f070b0a2411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389f350e3cafde62c821280ade267abf') in 0.102112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.152925 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 4.fbx
+  artifactKey: Guid(fe56cff203e294449b24acab2f0c31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 4.fbx using Guid(fe56cff203e294449b24acab2f0c31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2d3fa595c3382720189f646cc4ae49') in 0.054789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.175392 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 4.fbx
+  artifactKey: Guid(fe56cff203e294449b24acab2f0c31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 4.fbx using Guid(fe56cff203e294449b24acab2f0c31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfd72d45bd2e4cdb58153b43e12e877') in 0.030779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.036678 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 5.fbx
+  artifactKey: Guid(5c43eb4eb2913d544bee2417c63a435e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 5.fbx using Guid(5c43eb4eb2913d544bee2417c63a435e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c1928ca418495c5c7cf7b0378932a1') in 0.060513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.937323 seconds.
+  path: Assets/Serenay-3d Models/sebze kasası.fbx
+  artifactKey: Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/sebze kasası.fbx using Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1883e6effee4f4abe42afb9c3d171fd5') in 0.065862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.509562 seconds.
+  path: Assets/Serenay-3d Models/sebze kasası.fbx
+  artifactKey: Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/sebze kasası.fbx using Guid(749675ae27e1aa34abb980b666a7c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1093497d08b87deab1d95c0a68bf997f') in 0.043371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.321025 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 2.fbx
+  artifactKey: Guid(4e85165745f2d19489ebe4e7f2858486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 2.fbx using Guid(4e85165745f2d19489ebe4e7f2858486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c509de5813311f35cfaa26348f9d4299') in 0.023437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.876053 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 2.fbx
+  artifactKey: Guid(4e85165745f2d19489ebe4e7f2858486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 2.fbx using Guid(4e85165745f2d19489ebe4e7f2858486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3545f52f1ef85770f5ce7ca2049622f5') in 0.042182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.591441 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 3.fbx
+  artifactKey: Guid(6ab88f7c768dbad48b6d478ea4285ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 3.fbx using Guid(6ab88f7c768dbad48b6d478ea4285ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359b555053e235e6032247495baeb7eb') in 0.036731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.848421 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 3.fbx
+  artifactKey: Guid(6ab88f7c768dbad48b6d478ea4285ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 3.fbx using Guid(6ab88f7c768dbad48b6d478ea4285ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ae22a625dee2ec4ec8b9f413920762') in 0.033738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.280182 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 3.fbx
+  artifactKey: Guid(6ab88f7c768dbad48b6d478ea4285ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 3.fbx using Guid(6ab88f7c768dbad48b6d478ea4285ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a647c21c11170860a937e4a9a27858a') in 0.026561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 704.164887 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde1dbfd9473f195c4937d01b2465781') in 0.024432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.018788 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be4d306182352ecf318c75513edd47') in 0.148204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.946796 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_normal.png
+  artifactKey: Guid(a4f7f9719494ab84da395931b1ad6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_normal.png using Guid(a4f7f9719494ab84da395931b1ad6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49227bb1019cdae1a4d9a5fc1b72d226') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.367751 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_glossy.png
+  artifactKey: Guid(4c4f86727e6bdfc46a3cbf7218ba0edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_glossy.png using Guid(4c4f86727e6bdfc46a3cbf7218ba0edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1702f4b2dedb10f1dfaa2787dea9ae7') in 0.010297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 280.424502 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak.png
+  artifactKey: Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak.png using Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5c47ea3aad674aa5337bb63c913306') in 0.011924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 723.637749 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak.png
+  artifactKey: Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak.png using Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64955dd03fab80c9aa51b80c32946860') in 0.016425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 292.608652 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak 1.png
+  artifactKey: Guid(902bdc3085fc17a44b2a25b10e9232ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak 1.png using Guid(902bdc3085fc17a44b2a25b10e9232ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17156b57b98fd077a5855555655827a4') in 0.015685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.654510 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_Roughn.png
+  artifactKey: Guid(50c9b3e4ae3e08f4984db726d2e21236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak_Roughn.png using Guid(50c9b3e4ae3e08f4984db726d2e21236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f47554ca85e95619328c3fa7ce0a4b') in 0.015331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.126967 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Materials
+  artifactKey: Guid(02b5fa76961e22e448fdbed0502bb8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Materials using Guid(02b5fa76961e22e448fdbed0502bb8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af3f0ea590fee5a51a704b0b7dc232') in 0.014828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026280 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Materials/İksir Şişesi Altın Kapak 1.mat
+  artifactKey: Guid(691b68b5288a9174187bc999df0dd897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Materials/İksir Şişesi Altın Kapak 1.mat using Guid(691b68b5288a9174187bc999df0dd897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45e9042d0c33b56e72584fe66fb3926') in 0.013167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 310.851759 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak.png
+  artifactKey: Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/İksir Şişesi Altın Kapak.png using Guid(107393198a2fcc64c8099c631617e45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff502bd06f455c73eae1566d831ebc6') in 0.011770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 712.428769 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029fc379599b01a2656da4638f6f9e00') in 0.020662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.234611 seconds.
+  path: Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat
+  artifactKey: Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/Material/İksir Şişesi Boyalar/Altın/Altın.mat using Guid(ce5104189de5c8649bfc105981ba3b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a4daa59c4e96561fb4dff8fe461262') in 0.015624 seconds 

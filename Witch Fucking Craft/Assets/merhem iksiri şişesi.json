@@ -1,0 +1,90 @@
+{
+    "nodeDatas": [
+        {
+            "location": [
+                452.6112060546875,
+                292.6766662597656
+            ],
+            "name": "NULL.ShaderNodeOutputMaterial.Material Output"
+        },
+        {
+            "location": [
+                237.73211669921875,
+                357.6609802246094
+            ],
+            "name": "NULL.ShaderNodeMixShader.Mix Shader"
+        },
+        {
+            "location": [
+                33.431640625,
+                302.0606384277344
+            ],
+            "name": "NULL.ShaderNodeBsdfGlossy.Glossy BSDF"
+        },
+        {
+            "connections0Name": [
+                "Normal",
+                "Normal"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfDiffuse.Diffuse BSDF",
+                "ShaderNodeBsdfGlossy.Glossy BSDF"
+            ],
+            "location": [
+                -238.3419189453125,
+                379.47869873046875
+            ],
+            "name": "ShaderNodeBump.Bump",
+            "properties": [
+                "False",
+                "0.125",
+                "1.3000000715255737"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Height"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBump.Bump"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -468.3041687011719,
+                403.54107666015625
+            ],
+            "name": "ShaderNodeTexMagic.Magic Texture",
+            "properties": [
+                "2",
+                "4.999999523162842",
+                "2.700000047683716"
+            ]
+        },
+        {
+            "location": [
+                15.60968017578125,
+                499.7817077636719
+            ],
+            "name": "NULL.ShaderNodeBsdfDiffuse.Diffuse BSDF"
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                910.6356811523438,
+                314.6468505859375
+            ],
+            "name": "ShaderNodeTexImage.Image Texture"
+        },
+        {
+            "name": "EXTRA",
+            "properties": [
+                "True",
+                "False"
+            ]
+        }
+    ]
+}

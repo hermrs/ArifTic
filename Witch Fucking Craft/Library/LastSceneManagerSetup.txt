@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/GameScene.unity
+- path: Assets/Samples/Blender Nodes Graph/1.0.0/BuiltIn Samples/4D Noise/4D Noise.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
