@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Samples/Blender Nodes Graph/1.0.0/BuiltIn Samples/4D Noise/4D Noise.unity
+- path: Assets/Serenay-3d Models/Deneme.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
