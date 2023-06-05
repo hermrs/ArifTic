@@ -5,83 +5,23 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638214254055371585
-    m_Hash: 4020428513
+      ticks: 638215604831284946
+    m_Hash: 1719789460
   m_LockFileStatus:
     m_FilePath: C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638214254055405905
-    m_Hash: 1170618214
+      ticks: 638215604831426265
+    m_Hash: 1755400957
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus:
-  - m_FilePath: C:\Users\Serenay\Downloads\blender-nodes-subgraph-main/package.json
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 638214250152329997
-    m_Hash: 3994025290
-  - m_FilePath: C:\Users\Serenay\Downloads\blender-nodes-subgraph-main
-    m_PathExists: 1
-    m_ContentTrackingEnabled: 1
-    m_ModificationDate:
-      serializedVersion: 2
-      ticks: 0
-    m_Hash: 0
+  m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft/Packages
 m_EditorVersion: 2021.3.21f1 (1b156197d683)
 m_ResolvedPackages:
-- packageId: com.blendernodesgraph.core@file:C:\Users\Serenay\Downloads\blender-nodes-subgraph-main
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 4
-  resolvedPath: C:\Users\Serenay\Downloads\blender-nodes-subgraph-main
-  assetPath: Packages/com.blendernodesgraph.core
-  name: com.blendernodesgraph.core
-  displayName: Blender Nodes Graph
-  author:
-    name: Warwlock
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Core Utilities for Blender Nodes Graph
-  status: 0
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: https://github.com/Warwlock/blender-nodes-subgraph/wiki
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Warwlock/blender-nodes-subgraph.git
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
 - packageId: com.unity.collab-proxy@2.0.1
   testable: 0
   isDirectDependency: 1
@@ -924,6 +864,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
     compatible:
     - 1.6.4
     - 1.6.5
@@ -937,6 +878,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
     verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director

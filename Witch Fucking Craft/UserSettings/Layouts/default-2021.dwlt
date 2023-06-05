@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 176
+  controlID: 102
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 676
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 73
+  controlID: 103
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 74
+  controlID: 104
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Serenay-3d Models/Material
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Serenay-3d Models/Material
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 242}
-    m_SelectedIDs: ba5a0000
-    m_LastClickedID: 23226
-    m_ExpandedIDs: 00000000b65a0000b85a0000ba5a0000bc5a0000d25a00000c5b00000e5b0000105b000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 6c5e0000
+    m_LastClickedID: 24172
+    m_ExpandedIDs: 000000006c5e00006e5e0000705e0000725e0000fe5e0000c25f0000c65f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b65a0000b85a0000ba5a0000bc5a0000
+    m_ExpandedIDs: 000000006c5e00006e5e0000705e0000725e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,9 +491,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba5a0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3ea4fffff2a4ffff72a6ffff36fbffff
+      m_SelectedIDs: 885a0000
+      m_LastClickedID: 23176
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.22777025, y: -0.02018783, z: 0.0045686015, w: 0.9736076}
     speed: 2
-    m_Value: {x: 0.23357485, y: -0.021615984, z: 0.005039556, w: 0.97208554}
+    m_Value: {x: 0.22774528, y: -0.020185616, z: 0.0045681004, w: 0.97350085}
   m_Size:
     m_Target: 11.202127
     speed: 2
