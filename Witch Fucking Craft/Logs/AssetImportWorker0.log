@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 16125 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 16233 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
+C:/Users/22wha/Documents/GitHub/ArifTic/ArifTic/Witch Fucking Craft
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50552
-Successfully changed project path to: C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
-C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
+59615
+Successfully changed project path to: C:/Users/22wha/Documents/GitHub/ArifTic/ArifTic/Witch Fucking Craft
+C:/Users/22wha/Documents/GitHub/ArifTic/ArifTic/Witch Fucking Craft
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,119 @@ C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9444] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 2520011077 [EditorId] 2520011077 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VJE8FTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25076] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2081235225 [EditorId] 2081235225 [Version] 1048832 [Id] WindowsEditor(7,CenkerScar3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9444] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 2520011077 [EditorId] 2520011077 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VJE8FTF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25076] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2081235225 [EditorId] 2081235225 [Version] 1048832 [Id] WindowsEditor(7,CenkerScar3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 225.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Serenay/Documents/GitHub/ArifTic/Witch Fucking Craft/Assets
+[Subsystems] Discovering subsystems at path C:/Users/22wha/Documents/GitHub/ArifTic/ArifTic/Witch Fucking Craft/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f10)
     Vendor:   NVIDIA
-    VRAM:     6009 MB
-    Driver:   31.0.15.3203
+    VRAM:     8031 MB
+    Driver:   31.0.15.2225
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002585 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014169 seconds.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.61 ms, found 3 plugins.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 474 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 147.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.463 seconds
+- Completed reload, in  1.687 seconds
 Domain Reload Profiling:
-	ReloadAssembly (463ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (1687ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (333ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (1353ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (988ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (597ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002907 seconds.
+Registered in 0.011122 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\22wha\Documents\GitHub\ArifTic\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\22wha\Documents\GitHub\ArifTic\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
+- Completed reload, in  1.737 seconds
 Domain Reload Profiling:
-	ReloadAssembly (858ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1738ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (691ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (468ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (599ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 259 unused Assets / (130.2 KB). Loaded Objects now: 3663.
-Memory consumption went from 119.7 MB to 119.6 MB.
-Total: 3.872200 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.097600 ms MarkObjects: 3.199900 ms  DeleteObjects: 0.287500 ms)
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.6 KB). Loaded Objects now: 3577.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 4.253000 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.566800 ms MarkObjects: 3.220700 ms  DeleteObjects: 0.136400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,58 +172,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003098 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Serenay\Documents\GitHub\ArifTic\Witch Fucking Craft\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Domain Reload Profiling:
-	ReloadAssembly (750ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (549ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (230ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (81.5 KB). Loaded Objects now: 3659.
-Memory consumption went from 115.2 MB to 115.1 MB.
-Total: 3.188000 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.300100 ms MarkObjects: 2.524100 ms  DeleteObjects: 0.105400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 604258.408501 seconds.
+  path: Assets/CustomerPanel.prefab
+  artifactKey: Guid(19cdaef79b4cffc4ba4c81d2aefc658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomerPanel.prefab using Guid(19cdaef79b4cffc4ba4c81d2aefc658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d01ae593935f8b3257704829bbba37') in 0.107243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Item(Clone).prefab
+  artifactKey: Guid(3c41b032aabde36458caf1687f5454a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Item(Clone).prefab using Guid(3c41b032aabde36458caf1687f5454a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0d09d63b49affc1ce73a5d0f45c4b1') in 0.130328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.347772 seconds.
+  path: Assets/Serenay-3d Models/bıçak.fbx
+  artifactKey: Guid(e695caa68fe33d94592141f11996b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/bıçak.fbx using Guid(e695caa68fe33d94592141f11996b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cfe4122c1487c33e373986ec4b4a62') in 0.376671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Serenay-3d Models/iksir şişesi 4.fbx
+  artifactKey: Guid(fe56cff203e294449b24acab2f0c31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/iksir şişesi 4.fbx using Guid(fe56cff203e294449b24acab2f0c31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fcd24369cd3709044ded8e86fe6064') in 0.129102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Serenay-3d Models/kasa kırılmış.fbx
+  artifactKey: Guid(685176d4de1db724d9559fe1837a8e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Serenay-3d Models/kasa kırılmış.fbx using Guid(685176d4de1db724d9559fe1837a8e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e144fd0211cbfad5136b2717930b82') in 0.324566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.040143 seconds.
+  path: Assets/İtems/Book.asset
+  artifactKey: Guid(fbf53c9437c69ad4a8526891f1294796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/İtems/Book.asset using Guid(fbf53c9437c69ad4a8526891f1294796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfab59f5b131711cc46d40c41f68702') in 0.020388 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
