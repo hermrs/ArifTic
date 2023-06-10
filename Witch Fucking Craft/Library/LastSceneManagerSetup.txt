@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CodeTest 2.unity
+- path: Assets/Serenay-3d Models/Deneme.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
