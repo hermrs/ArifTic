@@ -15,6 +15,7 @@ public class PlayerV2 : MonoBehaviour
     {
        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x,0f,inputVector.y);
+        
         transform.position += moveDir * Time.deltaTime * playerSpeed;
         isWalking= moveDir != Vector3.zero;
         
