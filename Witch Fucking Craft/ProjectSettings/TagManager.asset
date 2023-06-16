@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "Bo\u015F Tezgah"
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - "Bo\u015F Tezgah"
   - Water
   - UI
   - 
