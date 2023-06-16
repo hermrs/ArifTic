@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -7,7 +8,7 @@ using UnityEngine;
 public class PlayerV2 : MonoBehaviour
 {
     private bool isWalking;
-
+   
     [SerializeField]  private GameInputV2 gameInput;
     [SerializeField]  private float playerSpeed = 7f;
     [SerializeField]  private float rotateSpeed = 12f;
@@ -17,13 +18,33 @@ public class PlayerV2 : MonoBehaviour
     [SerializeField]  private float interactDistance = 2f;
     [SerializeField] private LayerMask countersLayerMask;
     private Vector3 lastIntDir;
+    private ClearCounter selectedCounter;
+    private event EventHandler<OnSelectedCounterChangeEventArgs> OnSelectedcounterChanged;
+    public class OnSelectedCounterChangeEventArgs : EventArgs
+    {
+        public ClearCounter selectedCounter;
+    }
+    private static PlayerV2 instance;
+    public static PlayerV2 Instance { get; private set; }
+
+    private void Awake()
+    {
+       if(Instance != null)
+        {
+            Debug.LogError("Birden fazla oyuncu varlýk gösteriyor ?:/");
+        }
+        Instance = this; 
+    }
     private void Start()
     {
         gameInput.OnInteractAction += GameInput_OnInteractAction;
     }
-
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
     {
+       if(selectedCounter != null)
+        {
+            selectedCounter.Interact();
+        }
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
         if (moveDir != Vector3.zero)
@@ -44,7 +65,6 @@ public class PlayerV2 : MonoBehaviour
             // Debug.Log("-");
         }
     }
-
     private void Update()
     {
         HandleMovement(); 
@@ -64,27 +84,37 @@ public class PlayerV2 : MonoBehaviour
        if (Physics.Raycast(pivot.transform.position, moveDir,out RaycastHit raycastHit, interactDistance, countersLayerMask))
         {
            if(raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
-            {
+           {
                 // boþ tezhasa buyara atmalý ??
+                if(clearCounter != selectedCounter)
+                {
+                   SetSelectedCounter(clearCounter);
+                   
+                }
                 
+           }
+            else
+            {
+                SetSelectedCounter(null);
             }
-            
         }
         else
         {
-           // Debug.Log("-");
+            SetSelectedCounter(null);
         }
+        //Debug.Log(selectedCounter);
+
     }
     private void HandleMovement()
     {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
         // Raycast deneme alaný 
-        /*float range = 5;
+        float range = 5;
         Vector3 direction = Vector3.forward;
         Vector3 origins = new Vector3(transform.position.x,pivot.transform.position.y  ,transform.position.z);
         Ray theRay = new Ray(pivot.transform.position, transform.TransformDirection(direction * range));
-        Debug.DrawRay(pivot.transform.position, transform.TransformDirection(transform.forward * range)); */
+        Debug.DrawRay(pivot.transform.position, transform.TransformDirection(transform.forward * range)); 
         // Raycast deneme alaný1
 
         float moveDistance = playerSpeed * Time.deltaTime;
@@ -121,5 +151,13 @@ public class PlayerV2 : MonoBehaviour
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
         // test f*cking everything   Debug.Log(Time.deltaTime);
 
+    }
+    private void SetSelectedCounter(ClearCounter selectedCounter)
+    {
+        this.selectedCounter = selectedCounter;
+        OnSelectedcounterChanged?.Invoke(this, new OnSelectedCounterChangeEventArgs
+        {
+            selectedCounter = selectedCounter
+        });
     }
 }
