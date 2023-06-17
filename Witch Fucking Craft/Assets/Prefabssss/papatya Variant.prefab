@@ -12,16 +12,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16915
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16915
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16915
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0030431
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.3406
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.09193
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,7 +74,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ab7f83757462b3e4695b265f4ee07724, type: 3}
   m_PrefabInstance: {fileID: 4711773503851089691}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4043335733131834871
+--- !u!114 &8671850409080222278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,7 +83,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5594311692917502538}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50777edeccf96149bf8d036527dd0d8, type: 3}
+  m_Script: {fileID: 11500000, guid: c3e3b13fd519f2344b9767f61820a6e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSo: {fileID: 11400000, guid: e02737e487aad814f860840ab2abdc59, type: 2}
+  kitchenObjectSO: {fileID: 11400000, guid: e02737e487aad814f860840ab2abdc59, type: 2}

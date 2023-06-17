@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Assertions;
 
 public class GameInputV2 : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class GameInputV2 : MonoBehaviour
     private void Interact_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         //Debug.Log(obj);
-       
+
         
             OnInteractAction?.Invoke(this, EventArgs.Empty);
         

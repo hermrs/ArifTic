@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Assertions;
 [SerializeField]
 
 public class PlayerV2 : MonoBehaviour, IKitchenObjectParent
@@ -17,12 +18,14 @@ public class PlayerV2 : MonoBehaviour, IKitchenObjectParent
     [SerializeField]  private float playerHeight = 2f;
     [SerializeField]  private float interactDistance = 1f;
     [SerializeField] private LayerMask countersLayerMask;
-
-    [SerializeField] private ObejctsForCounterTops counterTopsThings;
+    
+    //
+    
     [SerializeField] private Transform KitchenObjectHoldPoint;
-    [SerializeField] private ClearCounter secondClearCounter;
+    
     [SerializeField] private bool testing;
-    private ObjectsOnTopsCounter kithcenObject;
+    private KitchenObje kithcenObject;
+ 
     private Vector3 lastIntDir;
     private ClearCounter selectedCounter;
     public event EventHandler<OnSelectedCounterChangeEventArgs> OnSelectedcounterChanged;
@@ -171,11 +174,11 @@ public class PlayerV2 : MonoBehaviour, IKitchenObjectParent
     {
         return KitchenObjectHoldPoint;
     }
-    public void SetKitchenObject(ObjectsOnTopsCounter kitchenObject)
+    public void SetKitchenObject(KitchenObje kitchenObject)
     {
         this.kithcenObject = kitchenObject;
     }
-    public ObjectsOnTopsCounter GetKitchenObject()
+    public KitchenObje GetKitchenObject()
     {
         return kithcenObject;
     }
