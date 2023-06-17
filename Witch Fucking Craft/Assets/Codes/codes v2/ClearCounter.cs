@@ -2,25 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 using UnityEngine;
-using UnityEngine.Assertions;
 
 public class ClearCounter : MonoBehaviour,  IKitchenObjectParent
 {
    
-    [SerializeField] private ObejctsForCounterTops kitchenObjectSO;
+    [SerializeField] private ObejctsForCounterTops counterTopsThings;
    [SerializeField] private Transform counterTopPoint;
    [SerializeField] private ClearCounter secondClearCounter;
    [SerializeField] private bool testing;
-
-   
-    private KitchenObje kithcenObject;
+    private ObjectsOnTopsCounter kithcenObject;
     private void Update()
     {
         if(testing && Input.GetKeyDown(KeyCode.Q))
         {
             if(kithcenObject != null)
             {
-                kithcenObject.SetKitchenObjectParent(secondClearCounter);
+               // kithcenObject.seta
             }
         }
     }
@@ -28,8 +25,11 @@ public class ClearCounter : MonoBehaviour,  IKitchenObjectParent
     {
         if (kithcenObject == null)
         {
-            Transform KitchenObjectTransform = Instantiate(kitchenObjectSO.prefab, counterTopPoint);
-            KitchenObjectTransform.GetComponent<KitchenObje>().SetKitchenObjectParent(this);
+            Transform AletTransform = Instantiate(counterTopsThings.prefab, counterTopPoint);
+            AletTransform.GetComponent<ObjectsOnTopsCounter>().SetKitchenObjectParent(this);
+            AletTransform.localPosition = Vector3.zero;
+            kithcenObject = AletTransform.GetComponent<ObjectsOnTopsCounter>();
+            kithcenObject.SetKitchenObjectParent(this);
             
         }
         else
@@ -44,11 +44,11 @@ public class ClearCounter : MonoBehaviour,  IKitchenObjectParent
     {
         return counterTopPoint;
     }
-    public void SetKitchenObject(KitchenObje kitchenObject)
+    public void SetKitchenObject(ObjectsOnTopsCounter kitchenObject)
     {
         this.kithcenObject = kitchenObject;
     }
-    public KitchenObje GetKitchenObject()
+    public ObjectsOnTopsCounter GetKitchenObject()
     {
         return kithcenObject;
     }

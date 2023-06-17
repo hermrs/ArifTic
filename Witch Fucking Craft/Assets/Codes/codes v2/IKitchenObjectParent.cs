@@ -7,10 +7,10 @@ public interface IKitchenObjectParent
     public Transform GetKitchenObjectFollowTransform();
 
 
-    public void SetKitchenObject(KitchenObje kitchenObject);
+    public void SetKitchenObject(ObjectsOnTopsCounter kitchenObject);
 
 
-    public KitchenObje GetKitchenObject();
+    public ObjectsOnTopsCounter GetKitchenObject();
 
 
     public void ClearKitchenObject();
