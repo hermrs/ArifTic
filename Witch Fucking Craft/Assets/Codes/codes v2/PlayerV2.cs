@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 [SerializeField]
 
-public class PlayerV2 : MonoBehaviour
+public class PlayerV2 : MonoBehaviour, IKitchenObjectParent
 {
     private bool isWalking;
    
@@ -13,13 +13,19 @@ public class PlayerV2 : MonoBehaviour
     [SerializeField]  private float playerSpeed = 7f;
     [SerializeField]  private float rotateSpeed = 12f;
     [SerializeField]  private GameObject pivot;
-    [SerializeField]  private float playerRadius = .7f;
+    [SerializeField]  private float playerRadius = 0.07f;
     [SerializeField]  private float playerHeight = 2f;
-    [SerializeField]  private float interactDistance = 2f;
+    [SerializeField]  private float interactDistance = 1f;
     [SerializeField] private LayerMask countersLayerMask;
+
+    [SerializeField] private ObejctsForCounterTops counterTopsThings;
+    [SerializeField] private Transform KitchenObjectHoldPoint;
+    [SerializeField] private ClearCounter secondClearCounter;
+    [SerializeField] private bool testing;
+    private ObjectsOnTopsCounter kithcenObject;
     private Vector3 lastIntDir;
     private ClearCounter selectedCounter;
-    private event EventHandler<OnSelectedCounterChangeEventArgs> OnSelectedcounterChanged;
+    public event EventHandler<OnSelectedCounterChangeEventArgs> OnSelectedcounterChanged;
     public class OnSelectedCounterChangeEventArgs : EventArgs
     {
         public ClearCounter selectedCounter;
@@ -43,7 +49,7 @@ public class PlayerV2 : MonoBehaviour
     {
        if(selectedCounter != null)
         {
-            selectedCounter.Interact();
+            selectedCounter.Interact(this);
         }
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
@@ -56,7 +62,7 @@ public class PlayerV2 : MonoBehaviour
             if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
             {
                 // boþ tezhasa buyara atmalý ??
-                clearCounter.Interact();
+                clearCounter.Interact(this);
             }
 
         }
@@ -110,11 +116,11 @@ public class PlayerV2 : MonoBehaviour
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
         // Raycast deneme alaný 
-        float range = 5;
+       /* float range = 5;
         Vector3 direction = Vector3.forward;
         Vector3 origins = new Vector3(transform.position.x,pivot.transform.position.y  ,transform.position.z);
         Ray theRay = new Ray(pivot.transform.position, transform.TransformDirection(direction * range));
-        Debug.DrawRay(pivot.transform.position, transform.TransformDirection(transform.forward * range)); 
+        Debug.DrawRay(pivot.transform.position, transform.TransformDirection(transform.forward * range)); */
         // Raycast deneme alaný1
 
         float moveDistance = playerSpeed * Time.deltaTime;
@@ -159,5 +165,26 @@ public class PlayerV2 : MonoBehaviour
         {
             selectedCounter = selectedCounter
         });
+    }
+
+    public Transform GetKitchenObjectFollowTransform()
+    {
+        return KitchenObjectHoldPoint;
+    }
+    public void SetKitchenObject(ObjectsOnTopsCounter kitchenObject)
+    {
+        this.kithcenObject = kitchenObject;
+    }
+    public ObjectsOnTopsCounter GetKitchenObject()
+    {
+        return kithcenObject;
+    }
+    public void ClearKitchenObject()
+    {
+        kithcenObject = null;
+    }
+    public bool HasKitchenObject()
+    {
+        return kithcenObject != null;
     }
 }
